@@ -28,3 +28,22 @@ print('kappa'.find('a', 2))
 print("tau tau tau".rfind("ta"))
 print("tau tau tau".rfind("ta", 9))
 print("tau tau tau".rfind("ta", 3, 9))
+
+# Demonstrating the rstrip() method:
+print("[" + " upsilon ".rstrip() + "]")
+print("cisco.com".rstrip(".com"))
+
+# Demonstrating the split() method:
+#divide una cadena en sus espacios en blanco, luego crea una lista con esos elementos.
+print("phi       chi\npsi".split())
+
+# Demonstrating the startswith() method:
+# devuelve True si la cadena comienza con la subcadena del argumento, de lo contrario imprime false.
+print("omega".startswith("meg"))
+print("omega".startswith("om"))
+
+print()
+
+# Demonstrating the strip() method:
+# hace la funcion de lstrip y rstrip, quita los espacios de ambos lados de la cadena.
+print("[" + "   aleph   ".strip() + "]")
